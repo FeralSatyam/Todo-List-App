@@ -1,12 +1,86 @@
-# React + Vite
+# 📝 React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean Todo List application built using **React**. This app allows users to add tasks, delete them, and reorder them using up and down buttons.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add new tasks
+- ❌ Delete existing tasks
+- ⬆ Move tasks up
+- ⬇ Move tasks down
+- 🔄 Real-time task updates with React state
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Functional Components & Hooks)
+- JavaScript (ES6)
+- HTML/CSS
+
+## 📂 Folder Structure
+
+```
+
+todo-list-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── Todo.js       # Main Todo Component
+│   ├── App.js        # Root App Component
+│   └── index.js      # Entry point
+├── package.json
+└── README.md
+
+````
+
+## 📸 Preview
+
+![alt text](image.png)
+
+```md
+![Todo App Screenshot](screenshot.png)
+````
+
+## 🔧 Installation & Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/FeralSatyam/todo-list-app.git
+   cd todo-list-app
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the app locally:**
+
+   ```bash
+   npm start
+   ```
+
+4. Open `http://localhost:3000` in your browser to use the app.
+
+## 🧠 Component Logic (Overview)
+
+* `useState` is used to manage the task list and the input value.
+* Tasks can be added if the input is not empty.
+* Tasks can be deleted individually.
+* Tasks can be reordered using up/down buttons.
+
+## ✨ Future Improvements
+
+* Persist tasks using localStorage or backend
+* Add edit functionality
+* Task completion toggle
+* Responsive design and better UI
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ by Satyam Rana(https://github.com/FeralSatyam)
