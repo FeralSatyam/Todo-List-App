@@ -34,7 +34,8 @@ todo-list-app/
 
 ## 📸 Preview
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/137be83d-371e-4702-aa7d-0a7df8d1c1a7)
+
 
 ```md
 ![Todo App Screenshot](screenshot.png)
