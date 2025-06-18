@@ -40,35 +40,6 @@ todo-list-app/
 ![Todo App Screenshot](screenshot.png)
 ````
 
-## 🔧 Installation & Setup
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/FeralSatyam/todo-list-app.git
-   cd todo-list-app
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the app locally:**
-
-   ```bash
-   npm start
-   ```
-
-4. Open `http://localhost:3000` in your browser to use the app.
-
-## 🧠 Component Logic (Overview)
-
-* `useState` is used to manage the task list and the input value.
-* Tasks can be added if the input is not empty.
-* Tasks can be deleted individually.
-* Tasks can be reordered using up/down buttons.
 
 ## ✨ Future Improvements
 
